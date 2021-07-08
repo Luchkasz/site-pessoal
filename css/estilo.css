@@ -1,0 +1,158 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    scroll-snap-align: center;
+    margin: auto;
+    height: 100%;
+}
+
+.subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+p {
+    margin-left: 3px;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration-color: #fff;    
+}
+
+.social-media {
+    height: 32px;
+    opacity: 0.7;
+}
+
+.social-media:hover {
+    opacity: 1;
+}
+
+/* NAV */
+
+    #nav {
+        background-color: #29272a;
+    }
+
+    #nav a {
+        color: #fff;
+        opacity: 0.7;
+        letter-spacing: 2px;
+    }
+
+    #nav a:hover {
+        opacity: 1;
+    }
+
+    #botao-menu {
+        border: none;
+        margin-left: 150px;
+    }
+
+/* NAV */
+
+/* INICIO */
+
+    #inicio {
+        background-color: #29272a;
+    }
+
+    #nome {
+        margin-top: 130px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+    }
+
+    #bio {
+        text-transform: lowercase;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+/* INICIO */
+
+
+/* SOBRE */
+
+    #sobre {
+        background-color: #4c3a69;     
+    }
+
+/* SOBRE */
+
+/* PROJETOS */
+
+    #projetos {
+        background-color: #222222;
+    }
+
+    #projetos img {
+        height: 210.867px;
+        width: 325px;
+    }
+
+/* PROJETOS */
+
+/* CONTATO */
+    #contato {
+        background-color: #4c3a69;
+        height: 100%;
+    }
+/* CONTATO */
+
+
+@media (min-width: 200px) and (max-width: 599px) {
+    #nome {
+        font-size: 6vw;
+    }
+
+    #bio {
+        font-size: 5vw;
+    }
+
+    .subtitulo {
+        font-size: 10vw;
+    }
+
+    .wrapper {
+        height: 100vh;
+        overflow: none;
+        scroll-snap-type: none;
+        height: 100%;
+    }
+    
+    section {
+        scroll-snap-align: none;
+        margin: none;
+    }
+
+    #projetos {
+        height: auto;
+    }
+
+}
+  
+@media (min-width: 600px) {
+    #nome {
+        font-size: 5vw;
+    }
+
+    #bio {
+        font-size: 3vw;
+    }
+
+}
