@@ -10,3 +10,6 @@
 - CSS
 - <a href="https://getbootstrap.com/" style="color: #000;">Bootstrap</a>
 - <a href="https://codepen.io/philippwilhelm/full/RwKZZxB" style="color: #000;">Sunset CSS</a>
+
+##### Referências:
+Apesar de escrito do zero, tive forte inspiração no design de um projeto já existente da [@Levxyca](github.com/Levxyca).
