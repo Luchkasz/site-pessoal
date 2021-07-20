@@ -63,6 +63,7 @@ a:hover {
 #botao-menu {
     border: none;
     margin-left: 150px;
+	 box-shadow: none;
 }
 
 /* NAV */
