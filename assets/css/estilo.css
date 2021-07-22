@@ -1,69 +1,69 @@
 html,
 body {
-    width: 100%;
-    height: 100%;
-    color: #fff;
+	width: 100%;
+	height: 100%;
+	color: #fff;
 }
 
 .wrapper {
-    height: 100vh;
-    overflow: auto;
-    scroll-snap-type: y mandatory;
+	height: 100vh;
+	overflow: auto;
+	scroll-snap-type: y mandatory;
 }
 
 section {
-    scroll-snap-align: center;
-    margin: auto;
-    height: 100%;
+	scroll-snap-align: center;
+	margin: auto;
+	height: 100%;
 }
 
 .subtitulo {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 50px;
-    font-size: 4rem;
-    font-weight: bolder;
-    margin-bottom: 20px;
-    letter-spacing: 3px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding-top: 50px;
+	font-size: 4rem;
+	font-weight: bolder;
+	margin-bottom: 20px;
+	letter-spacing: 3px;
 }
 
 p {
-    margin-left: 3px;
-    font-size: 18px;
+	margin-left: 3px;
+	font-size: 18px;
 }
 
 a:hover {
-    text-decoration-color: #fff;
+	text-decoration-color: #fff;
 }
 
 .social-media {
-    height: 32px;
-    opacity: 0.7;
+	height: 32px;
+	opacity: 0.7;
 }
 
 .social-media:hover {
-    opacity: 1;
+	opacity: 1;
 }
 
 /* NAV */
 
 #nav {
-    background-color: #29272a;
+	background-color: #29272a;
 }
 
 #nav a {
-    color: #fff;
-    opacity: 0.7;
-    letter-spacing: 2px;
+	color: #fff;
+	opacity: 0.7;
+	letter-spacing: 2px;
 }
 
 #nav a:hover {
-    opacity: 1;
+	opacity: 1;
 }
 
 #botao-menu {
-    border: none;
-    margin-left: 150px;
-	 box-shadow: none;
+	border: none;
+	margin-left: 150px;
+	box-shadow: none;
 }
 
 /* NAV */
@@ -71,18 +71,18 @@ a:hover {
 /* INICIO */
 
 #inicio {
-    background-color: #29272a;
+	background-color: #29272a;
 }
 
 #nome {
-    margin-top: 130px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
+	margin-top: 130px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bolder;
 }
 
 #bio {
-    text-transform: lowercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-transform: lowercase;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* INICIO */
@@ -90,7 +90,7 @@ a:hover {
 /* SOBRE */
 
 #sobre {
-    background-color: #4c3a69;
+	background-color: #4c3a69;
 }
 
 /* SOBRE */
@@ -98,62 +98,62 @@ a:hover {
 /* PROJETOS */
 
 #projetos {
-    background-color: #222222;
+	background-color: #222222;
 }
 
 #projetos img {
-    height: 210.867px;
-    width: 325px;
+	height: 210.867px;
+	width: 325px;
 }
 
 /* PROJETOS */
 
 /* CONTATO */
 #contato {
-    background-color: #4c3a69;
-    height: 100%;
+	background-color: #4c3a69;
+	height: 100%;
 }
 
 /* CONTATO */
 
 @media (min-width: 200px) and (max-width: 599px) {
-    #nome {
-        font-size: 6vw;
-    }
+	#nome {
+		font-size: 6vw;
+	}
 
-    #bio {
-        font-size: 5vw;
-    }
+	#bio {
+		font-size: 5vw;
+	}
 
-    .subtitulo {
-        font-size: 10vw;
-    }
+	.subtitulo {
+		font-size: 10vw;
+	}
 
-    .wrapper {
-        height: 100vh;
-        overflow: none;
-        scroll-snap-type: none;
-        height: 100%;
-    }
+	.wrapper {
+		height: 100vh;
+		overflow: none;
+		scroll-snap-type: none;
+		height: 100%;
+	}
 
-    section {
-        scroll-snap-align: none;
-        margin: none;
-    }
+	section {
+		scroll-snap-align: none;
+		margin: none;
+	}
 
-    #projetos {
-        height: auto;
-    }
+	#projetos {
+		height: auto;
+	}
 
 }
 
 @media (min-width: 600px) {
-    #nome {
-        font-size: 5vw;
-    }
+	#nome {
+		font-size: 5vw;
+	}
 
-    #bio {
-        font-size: 3vw;
-    }
+	#bio {
+		font-size: 3vw;
+	}
 
 }
